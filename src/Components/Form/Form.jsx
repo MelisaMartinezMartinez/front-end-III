@@ -28,7 +28,7 @@ const Form = () => {
 
 
   return (
-    <div>
+    <div className="container">
         <form onSubmit={handleSubmit}>
             <input 
             type="text" 
@@ -46,7 +46,6 @@ const Form = () => {
             onChange={handleChangePokemon} />
 
             <button type="submit">Ingresar</button>
-
         </form>
     </div>
   )
